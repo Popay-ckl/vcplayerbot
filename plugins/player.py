@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Copyright (C) @subinps
+# Copyright (C) @harshparmar0
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
@@ -501,8 +501,8 @@ async def not_chat(_, m: Message):
     else:
         buttons = [
             [
-                InlineKeyboardButton('⚡️Make Own Bot', url='https://github.com/subinps/VCPlayerBot'),
-                InlineKeyboardButton('🧩 Join Here', url='https://t.me/subin_works'),
+                InlineKeyboardButton('⚡️Make Own Bot', url='https://github.com/harshparmar0/VCPlayerBot'),
+                InlineKeyboardButton('🧩 Join Here', url='https://t.me/school_walli_mastii'),
             ]
             ]
         await m.reply("<b>You can't use this bot in this group, for that you have to make your own bot from the [SOURCE CODE](https://github.com/subinps/VCPlayerBot) below.</b>", disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(buttons))
